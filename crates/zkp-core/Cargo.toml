@@ -1,0 +1,20 @@
+[package]
+name = "zkp-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+ark-ff = { workspace = true, features = ["std"] }
+ark-std = { workspace = true, features = ["std"] }
+sha2 = { workspace = true }
+digest = { workspace = true }
+merlin = { workspace = true }
+serde = { workspace = true }
+bincode = { workspace = true }
+
+
+
+[[example]]
+name = "demo_mle"
+path = "examples/demo_mle.rs"

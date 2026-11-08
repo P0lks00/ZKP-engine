@@ -1,0 +1,17 @@
+# Rust build artifacts (BEZWZGLĘDNIE NIE WRZUCAĆ DO GIT - zajmuje setki MB)
+/target/
+target/
+
+# Lockfile aplikacji (w bibliotekach często ignorowany, w workspace opcjonalny)
+# Cargo.lock
+
+# Pliki tymczasowe edytorów i systemowe
+*.swp
+*.swo
+*~
+.DS_Store
+.vscode/
+.idea/
+
+# Jeśli nie chcesz trzymać ciężkich PDF-ów w repozytorium GitHub, odkomentuj poniższą linię:
+*.pdf
